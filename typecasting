@@ -1,0 +1,28 @@
+# typecasting = Typecasting is the process of converting a variable form one data type to another data type
+
+
+name = "lakshmeesh"
+age = 21
+height = 5.9
+is_handsome = True
+
+print(type(name))
+print(type(age))
+print(type(height))
+print(type(is_handsome))
+
+
+agenew = str(age)
+heightnew = bool(height)
+namenew = int(height)
+
+
+print(agenew)
+print(heightnew)
+print(namenew)
+   
+print(type(agenew))
+print(type(heightnew))
+print(type(namenew))   
+
+
